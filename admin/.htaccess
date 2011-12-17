@@ -1,0 +1,8 @@
+AuthUserFile /h/bschwa06/public_html/admin/.htpasswd
+AuthGroupFile /dev/null
+AuthName Restricted_Access
+AuthType Basic
+
+<Limit GET POST>
+require valid-user
+</Limit>
